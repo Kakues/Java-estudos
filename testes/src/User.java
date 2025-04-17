@@ -16,7 +16,7 @@ public class User {
         smartTV.volumeUp();
         System.out.println("Actual Volume: "+smartTV.volume);
 
-        smartTV.changeChannel(24);
+        smartTV.changeChannel(25);
         System.out.println("Actual Channel: "+smartTV.channel);
     }
 }
