@@ -12,5 +12,17 @@ public class App {
         } else {
             System.out.println("nenhuma é verdadeira");
         }
+
+        somas(3, 2);
     }
+
+    public static int somas(int num1, int num2){
+        
+        int result = num1+num2;
+        
+        System.out.println(result);
+        
+        return result;
+    }
+
 }
